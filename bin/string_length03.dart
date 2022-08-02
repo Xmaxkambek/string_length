@@ -8,15 +8,15 @@
         True or False
 */
 
-String func(String a, String b) {
+bool func(String a, String b) {
   int r = a.length;
   int c = b.length;
   if (a.length == b.length) {
-    return 'True';
+    return true;
   } else if (a.length != b.length) {
-    return 'False';
+    return false;
   }
-  return '';
+  return true;
 }
 
 void main() {
