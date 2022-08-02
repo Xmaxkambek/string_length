@@ -6,6 +6,15 @@
     Returns:
         string
 */
+
+String func(String s) {
+  int d = s.length;
+  String c = '*';
+  c = '*' * d;
+  return c;
+}
+
 void main() {
+  print(func('Codeschool'));
   // write your code here
 }
