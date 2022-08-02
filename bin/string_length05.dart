@@ -7,6 +7,15 @@
     Returns:
         total length of strings
 */
+
+int func(String s1, String s2) {
+  int s = s1.length;
+  int c = s2.length;
+  int b = s + c;
+  return b;
+}
+
 void main() {
+  print(func('assalomu ', 'alaykum'));
   // write your code here
 }
