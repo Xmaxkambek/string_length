@@ -6,6 +6,11 @@
     Returns:
         length of string */
 
+int func(String s) {
+  return s.length;
+}
+
 void main() {
+  print(func('salom'));
   // write your code here
 }
