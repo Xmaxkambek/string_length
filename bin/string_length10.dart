@@ -7,6 +7,12 @@
         bool: answer
 */
 
+String func(String s) {
+  String d = s.toUpperCase();
+  return d;
+}
+
 void main() {
+  print(func('codeschool'));
   // write your code here
 }
