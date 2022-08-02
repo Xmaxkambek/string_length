@@ -9,21 +9,14 @@
 */
 
 String func(String s1, String s2) {
-  int s = s1.length;
-  int c = s2.length;
-  if (s % 2 == 0) {
-    print(s1);
-  } else if (s % 2 == 1) {
-    print(s2);
-  } else if (c % 2 == 1) {
-    print(s2);
-  } else if (c % 2 == 0) {
-    print(s1);
+  if (s1.length % 2 == 0) {
+    return s1;
+  } else {
+    return s2;
   }
-  return '';
 }
 
 void main() {
-  print(func('code', 'Hell'));
+  print(func('code', 'Helds'));
   // write your code here
 }
