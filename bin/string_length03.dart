@@ -7,6 +7,19 @@
     Returns:
         True or False
 */
+
+String func(String a, String b) {
+  int r = a.length;
+  int c = b.length;
+  if (a.length == b.length) {
+    return 'True';
+  } else if (a.length != b.length) {
+    return 'False';
+  }
+  return '';
+}
+
 void main() {
+  print(func('coder', 'soat'));
   // write your code here
 }
