@@ -10,9 +10,9 @@
 String func(String s) {
   int r = s.length;
   if (r % 2 == 0) {
-    return 'true';
+    return 'True';
   } else if (r % 2 == 1) {
-    return 'false';
+    return 'False';
   }
   return '';
 }
