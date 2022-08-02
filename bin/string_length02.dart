@@ -6,6 +6,17 @@
     Returns:
         True or False
      */
+
+String func(String s) {
+  int r = s.length;
+  if (r % 2 == 0) {
+    return 'true';
+  } else if (r % 2 == 1) {
+    return 'false';
+  }
+  return '';
+}
+
 void main() {
-  // write your code here
+  print(func('salom'));
 }
