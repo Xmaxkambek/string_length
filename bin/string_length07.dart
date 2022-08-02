@@ -7,6 +7,23 @@
     Returns:
         string
 */
+
+String func(String s1, String s2) {
+  int s = s1.length;
+  int c = s2.length;
+  if (s % 2 == 0) {
+    print(s1);
+  } else if (s % 2 == 1) {
+    print(s2);
+  } else if (c % 2 == 1) {
+    print(s2);
+  } else if (c % 2 == 0) {
+    print(s1);
+  }
+  return '';
+}
+
 void main() {
+  print(func('code', 'Hell'));
   // write your code here
 }
